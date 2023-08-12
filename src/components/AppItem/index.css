@@ -1,0 +1,31 @@
+.apps-list {
+  list-style-type: none;
+}
+
+.app-item {
+  background-color: white;
+  margin: 5px;
+  width: 105px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+.app-logo {
+  width: 60px;
+  align-self: center;
+  border-radius: 5px;
+}
+
+.app-name {
+  font-family: bree serif;
+  text-align: center;
+  color: #1e293b;
+  font-size: 14px;
+  margin: 8px;
+  margin-bottom: 0;
+}
