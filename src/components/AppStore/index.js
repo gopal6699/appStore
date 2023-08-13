@@ -327,9 +327,9 @@ class AppStore extends Component {
 
     return (
       <div className="app-container">
-        <div className="app-store-container">
+        <div className="app-store">
           <h1 className="heading">App Store</h1>
-          <div className="input-container">
+          <div className="search-input-container">
             <input
               type="search"
               className="search-input"
@@ -343,7 +343,7 @@ class AppStore extends Component {
               className="search-icon"
             />
           </div>
-          <ul className="tab-items-container">
+          <ul className="tabs-list">
             {tabsList.map(eachTab => (
               <TabItem
                 tabsList={eachTab}
@@ -353,7 +353,7 @@ class AppStore extends Component {
               />
             ))}
           </ul>
-          <ul className="app-items-container">
+          <ul className="apps-list">
             {filteredApps.map(eachApp => (
               <AppItem appsList={eachApp} key={eachApp.appId} />
             ))}
